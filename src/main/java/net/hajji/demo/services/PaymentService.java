@@ -57,6 +57,8 @@ public class PaymentService {
         return paymentRepository.save(payment);
     }
 
+    
+
     public byte[] getPaymentFile(Long paymentId) throws IOException {
         Payment payment = paymentRepository.findById(paymentId).get();
         return Files.readAllBytes(Path.of(URI.create(payment.getFile())));
