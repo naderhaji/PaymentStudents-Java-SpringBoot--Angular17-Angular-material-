@@ -1,0 +1,20 @@
+/* .container {
+  padding: 10px;
+  display: flex;
+}
+
+mat-card {
+  width: 400px;
+  text-align: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+} */
+
+mat-form-field {
+  display: block;
+}
+
+.login-form {
+  width: 400px;
+  flex: auto;
+  margin: auto;
+}
